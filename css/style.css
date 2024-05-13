@@ -1,14 +1,12 @@
 *{
-box-sizing: border-box;
 padding: 0;
 margin:  0;
-font-family: "Roboto", sans-serif;
+box-sizing: border-box;
 }
 
 
 /* styles of header*/
 .header{
-   width: 100%;
    border: 1px solid #9f3647;
   background-color: #9f3647;
   color:white; 
@@ -16,7 +14,6 @@ font-family: "Roboto", sans-serif;
   justify-content:space-between;
 align-items: center;
   padding: 10px 400px ;
- 
 }
 .lista {
   text-decoration: none;
@@ -39,30 +36,50 @@ align-items: center;
 }
 /*--------------------------------------------------portada---------------------------------*/ 
 .portada{ 
-  height: 500px;
   background-color: rgba(21, 212, 183, 0.448) ;
    display: flex;
    flex-direction: column;
    justify-content: center;
-   color:white; 
- 
-
+   color:white; font-family: "Anton", sans-serif;
+ min-height: 100vh;
 }
 /* ---------------------------------------------styles of about-me---------------------------*/
 .about-me{
 
-margin: 100px  300px;
+margin: 39px  300px;
 padding-left: 100px ;
 text-align: justify;
 color:white  
 
 }
-
 /* -----------------------------------------------styles of certificaciones-------------------*/
-.card{
-  width: 100px;
-  height: 400px;
+.certificaciones{
+  background-color: rgba(0, 110, 255, 0.384);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
+
+.card{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    margin: 10px 5px;
+}
+
+.card img:hover{
+transform: rotateY(180deg);
+transform-style: preserve-3d;
+transform: rotateY(180deg);
+transform-style: preserve-3d;
+
+}
+
+
 
 /* -----------------------------------------------styles of projects------------------------*/
 
