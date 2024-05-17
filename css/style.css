@@ -80,7 +80,6 @@ color:white
 background-color: rgba(0, 0, 0, 0.221);
 }
 
-
  .card:hover .card-img-top {
   visibility: hidden;
 }
@@ -90,21 +89,12 @@ background-color: rgba(0, 0, 0, 0.221);
   background-color: red ;
 }
 
-
-
 /* -----------------------------------------------styles of projects------------------------*/
 
 /* --------------------------------------------styles of skills-----------------------------*/
 
 /* --------------------------------------styles of contact-me-------------------------------*/
-
-
-
-
-
 /* --------------------------  MOVILE ------------------------------- */
-
-
 @media (max-width:600px) {
  /* heder movile*/
   .header{
