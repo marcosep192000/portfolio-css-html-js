@@ -1,48 +1,78 @@
-*{
-padding: 0;
-margin:  0;
-box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
+/* styles of header */
+.header {
+  background-color: transparent;
+  width: 100%;
+  position:absolute;
 
-/* styles of header*/
-.header{
-   border: 1px solid #9f3647;
-  background-color: #9f3647;
-  color:white; 
-  display:flex;
-  justify-content:space-between;
-align-items: center;
-  padding: 10px 400px ;
 }
+
+.navegacion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
 .lista {
-  text-decoration: none;
+  display: inline-flex;
+  background-color: rgba(3, 3, 3, 0.425);
+
   list-style: none;
-  display:flex;
+  padding: 15px 20px 15px 20px ; 
+  border-radius: 40px;
+  margin-top: 15px;
+    /* Asegúrate de que no hay padding a la izquierda */
 }
 
-.lista li {
-  text-decoration: none;
-  list-style: none;
-  padding-left:20px;
-  text-align: center;
+.lista .item {
+  margin: 0;  /* Elimina cualquier margen adicional */
 }
-.logo a{
-  text-decoration: none;
+
+.lista .item a {
   color: white;
-  text-align: center;
-  padding: 0px 50px ;
-  align-content: center;
+  text-decoration: none;
+  margin: 0;  /* Asegúrate de que no hay margen a la izquierda */
+  padding: 0 10px;  /* Añade padding alrededor de los enlaces para el espaciado */
 }
+
+
 /*--------------------------------------------------portada---------------------------------*/ 
 .portada{ 
+  background-image: url("../img/5137894.jpg");
   background-color: rgba(21, 212, 183, 0.448) ;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   color:white; font-family: "Anton", sans-serif;
  min-height: 100vh;
+  align-items: center;
+display:inline-flex;
+flex-direction: column;
+justify-content: center;
 }
+.portada h1 strong {
+  color: white;
+  font-family: "Anton", sans-serif;
+  position: relative; /* Agrega posicionamiento relativo */
+  top: -80px; /* Mueve hacia arriba 20px */
+}
+.portada  h2{
+  color:white; font-family:'Times New Roman', Times, serif;
+  position: relative;
+  margin-top: -70px;
+}
+.portada  p {
+  text-align: justify;
+  margin : 70px 10% 4px 10%; 
+  font-size: large;
+  color:rgba(255, 255, 255, 0.493)
+}
+
+
+
+
 /* ---------------------------------------------styles of about-me---------------------------*/
 .about-me{
 
