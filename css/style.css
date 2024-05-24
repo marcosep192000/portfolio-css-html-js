@@ -69,7 +69,10 @@ justify-content: center;
   font-size: large;
   color:rgba(255, 255, 255, 0.493)
 }
-
+.portada strong{
+  color: white;
+  font-size:larger;
+}
 
 
 
@@ -83,14 +86,17 @@ color:white
 
 }
 /* -----------------------------------------------styles of certificaciones-------------------*/
+
 .certificaciones{
-  background-color: rgba(0, 110, 255, 0.384);
+
+}
+.cards{
+  margin:39px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
-
 .card{
     width: 300px;
     height: 200px;
@@ -100,16 +106,12 @@ color:white
     transition: all 0.5s ease;
     margin: 20px 25px;
 }
-
 .card .card-text{
   visibility: hidden;
 }
-
-
 .card:hover { 
 background-color: rgba(0, 0, 0, 0.221);
 }
-
  .card:hover .card-img-top {
   visibility: hidden;
 }
