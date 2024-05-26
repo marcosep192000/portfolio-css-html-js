@@ -8,7 +8,6 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
-
 /* styles of header */
 .header {
   background-color: transparent;
@@ -18,9 +17,7 @@
 background: linear-gradient(138deg,rgba(255,0,0,0) 0%, #000000 80%);
 background: -webkit-linear-gradient(138deg,rgba(255,0,0,0) 0%, #000000 80%);
 background: -moz-linear-gradient(138deg,rgba(255,0,0,0) 0%, #000000 80%);
-
 }
-
 .navegacion {
   display: flex;
   align-items: center;
@@ -44,8 +41,8 @@ background: -moz-linear-gradient(138deg,rgba(255,0,0,0) 0%, #000000 80%);
 .lista .item a {
   color: white;
   text-decoration: none;
-  margin: 0;  /* Asegúrate de que no hay margen a la izquierda */
-  padding: 0 10px;  /* Añade padding alrededor de los enlaces para el espaciado */
+  margin: 0;  
+  padding: 0 10px;  /
 }
 
 
