@@ -3,12 +3,21 @@
   margin: 0;
   box-sizing: border-box;
 }
+:root{
+  --font-reddit: "Reddit Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 
 /* styles of header */
 .header {
   background-color: transparent;
   width: 100%;
   position:absolute;
+  background: rgba(255,0,0,0);
+background: linear-gradient(138deg,rgba(255,0,0,0) 0%, #000000 80%);
+background: -webkit-linear-gradient(138deg,rgba(255,0,0,0) 0%, #000000 80%);
+background: -moz-linear-gradient(138deg,rgba(255,0,0,0) 0%, #000000 80%);
 
 }
 
@@ -18,7 +27,6 @@
   justify-content: center;
   width: 100%;
 }
-
 .lista {
   display: inline-flex;
   background-color: rgba(3, 3, 3, 0.425);
@@ -29,7 +37,6 @@
   margin-top: 15px;
     /* Asegúrate de que no hay padding a la izquierda */
 }
-
 .lista .item {
   margin: 0;  /* Elimina cualquier margen adicional */
 }
@@ -54,9 +61,9 @@ justify-content: center;
 }
 .portada h1 strong {
   color: white;
-  font-family: "Anton", sans-serif;
-  position: relative; /* Agrega posicionamiento relativo */
-  top: -80px; /* Mueve hacia arriba 20px */
+  font-family:var(--font-reddit);
+  position: relative;
+  top: -80px; 
 }
 .portada  h2{
   color:white; font-family:'Times New Roman', Times, serif;
