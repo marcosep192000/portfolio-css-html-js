@@ -57,5 +57,25 @@ margin: 0;
 }
 /*-------- contenedor__text ----------*/
 
+.presentacion__text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.presentacion__saludo{
+  font-size: 2rem;
+color: #4c366b;
+justify-items: end;
+}
+.presentacion__nombre{
+  font-size: 4rem;
+}
+
+
+
 
 
