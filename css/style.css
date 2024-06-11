@@ -203,3 +203,13 @@ justify-content: center;
   transform: rotateY(180deg);
 }
 /*-------------fin card---------------- */
+
+
+
+
+/* -------footer-----*/
+.footer{
+height: 80px;
+width: 100%;
+background-color: red;
+}
