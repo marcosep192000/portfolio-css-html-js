@@ -1,7 +1,16 @@
-body, html{
+*{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+
+
+  z-index: 300;
+}
+body{
+  background-color:red;
+}
+h2,h1{
+  font-family:var(--font-reddit);
 }
 :root{
   --font-reddit: "Reddit Sans", sans-serif;
@@ -18,7 +27,9 @@ body, html{
     display: flex;
     align-items: center;
     flex-direction: column;
+    box-shadow: 199px;
 }
+
 
 .contenedor__navegacion{
   position:sticky;
@@ -113,14 +124,28 @@ border-style: solid;
 
 /* certificaciones */
 .contenedor__certificaciones{
-
 margin: 0 8%;
+
+height: 100vh;
+
 }
 
 .certificaciones__titulo{
+  margin-top: 50px;
 display: flex;
+  flex-direction: column;
     justify-content: center; /* Centra horizontalmente */
     align-items: center;
+}
+.titulo__linea{
+  width: 96%;
+  color:#4c366b;
+  background-color:#4c366b;
+  height: 5px ;
+}
+.titulo__certificacion{
+font-family: var(--font-reddit);
+color:white
 }
 
 /*---------------lista Cards -------------------------------*/
@@ -132,13 +157,14 @@ justify-content: center;
 }
 
 
-/*---------------card--------------- */
+
+/*---------------card certificaciones--------------- */
 
 .flip-card {
   background-color: transparent;
   width: 400px;
   height: 240px;
-  margin: 10px 10px ;
+  margin: 20px 10px ;
   perspective: 1000px;
 }
 
@@ -156,7 +182,6 @@ justify-content: center;
   transform: rotateY(180deg);
 }
 
-
 .flip-card-front, .flip-card-back {
   position: absolute;
   width: 100%;
@@ -171,12 +196,10 @@ justify-content: center;
 }
 
 .flip-card-back {
-  
+  background-image: url("/img/5137894.jpg") ;
   text-align: center;
   background-color:#4c366b;
   color: white;
   transform: rotateY(180deg);
 }
 /*-------------fin card---------------- */
-
-
