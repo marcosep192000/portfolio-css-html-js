@@ -1,0 +1,87 @@
+:root{
+
+}
+*{
+
+}
+body,html{
+    background-color: aquamarine;
+   height: 100%;
+    padding:0;
+margin: 0;
+box-sizing: border-box;
+}
+
+
+/* grid  */
+
+
+.header{
+     grid-area: header;
+    background-color: cadetblue;
+}
+.section__certificate{
+     grid-area: certificate;
+    background-color: rgb(62, 199, 21);
+}
+.section__projects{
+     grid-area: projects;
+    background-color: rgb(117, 21, 4);
+}
+.section__skills{
+     grid-area: skills;
+    background-color: rgb(22, 53, 119);
+}
+.section__contact-me{
+    grid-area: contact-me;
+    background-color: rgb(213, 216, 19);
+}
+.footer{
+    grid-area: footer;
+    background-color: violet;
+}
+
+
+.container{
+    min-height: 100%;
+    display: grid;
+    grid-template-areas: 
+   "header"
+    "certificate"
+    "projects"
+    "skills"
+    "contact-me"
+    "footer";
+}
+
+
+@media only screen and  (min-width: 767px) {
+  .container{
+    
+    grid-template-areas: 
+   "header certificate"
+    "projects projects"
+    "skills skills"
+    "contact-me contact-me"
+    "footer footer";
+}
+  
+
+}
+
+
+
+
+/* Escritorios */
+@media only screen and (min-width: 1281px) and (max-width: 1440px) {
+    /* Estilos para escritorios pequeños */
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 1920px) {
+    /* Estilos para escritorios medianos */
+}
+
+/* Escritorios grandes */
+@media only screen and (min-width: 1921px) {
+    /* Estilos para escritorios grandes */
+}
