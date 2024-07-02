@@ -40,8 +40,6 @@ box-sizing: border-box;
     grid-area: footer;
     background-color: violet;
 }
-
-
 .container{
     min-height: 100%;
     display: grid;
@@ -53,8 +51,6 @@ box-sizing: border-box;
     "contact-me"
     "footer";
 }
-
-
 @media only screen and  (min-width: 767px) {
   .container{
     
